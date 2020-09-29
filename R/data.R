@@ -1,12 +1,19 @@
+################################################################################
+#
 #' Urban Water and Sanitation Survey Dataset
 #'
 #' See the README at
-#' \href{https://github.com/validmeasures/washdata#readme}{GitHub}
+#' \href{https://github.com/katilingban/washdata#readme}{GitHub}
 #'
-#' @docType package
+#' @docType data
 #' @name washdata
-NULL
+#' @keywords internal
+#'
+#
+"_PACKAGE"
 
+################################################################################
+#
 #' Population Data for Dhaka, Bangladesh
 #'
 #' Grid-based population of Dhaka, Bangladesh
@@ -18,8 +25,14 @@ NULL
 #' \item{\code{type}}{slum (1) or non-slum (2)}
 #' \item{\code{pop}}{population}
 #' }
+#'
+#' @examples
+#' popBGD
+#
 "popBGD"
 
+################################################################################
+#
 #' WASH Survey Raw Data for Dhaka, Bangladesh
 #'
 #' WASH survey raw data collected by WSUP in Dhaka, Bangladesh
@@ -244,19 +257,37 @@ NULL
 #' \item{\code{ppi10}}{Does the household own  or rent sharecrop mortgage in or out  51 or more decimals of cultivable agricultural land  excluding uncultivable land and dwelling house homestead land}
 #' \item{\code{ppi11}}{Does the household own  or rent sharecrop mortgage in or out  51 or more decimals of cultivable agricultural land  excluding uncultivable land and dwelling house homestead land    Time Answered}
 #' }
+#'
+#' @examples
+#' surveyDataBGD
+#'
+#
 "surveyDataBGD"
 
+################################################################################
+#
 #' WASH Survey Indicators Data for Dhaka, Bangladesh
 #'
 #' WASH survey indicators data calculated from survey raw data
 #'
 #' @format A data frame with 162 variables and 1282 entries
+#'
+#' @examples
+#' indicatorsDataBGD
+#'
+#
 "indicatorsDataBGD"
 
+################################################################################
+#
 #' PPI Look-up Table for Bangladesh
 #'
 #' PPI look-up table for Bangladesh to calculate PPI score
 #'
 #' @format A data frame with 10 variables and 101 entries
+#'
+#' @examples
+#' ppiMatrixBGD
+#'
 "ppiMatrixBGD"
 

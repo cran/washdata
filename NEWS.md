@@ -1,3 +1,6 @@
+# washdata 0.1.3
+* provided general documentation and formatting updates
+
 # washdata 0.1.2
 * updated an invalid URL from README pointing to the document with the
 population data for slums in Bangladesh
