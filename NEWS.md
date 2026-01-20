@@ -1,3 +1,6 @@
+# washdata 0.1.5
+* general maintenance and upkeep changes and updates
+
 # washdata 0.1.4
 * general documentation and formatting updates
 
